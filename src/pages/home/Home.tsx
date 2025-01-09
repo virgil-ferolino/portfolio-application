@@ -1,17 +1,19 @@
 import SidebarLeg from "@/components/side-bar/SidebarLeg";
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
-const App = () => {
+const Home = () => {
   const [isCol, setIsCol] = useState(false);
   return (
-    <div className="flex w-[100svw]">
+    <div>
       <SidebarLeg
         isCollapsed={isCol}
         setIsCollapse={() => setIsCol((prev) => !prev)}
       />
-      <Outlet />
+      <div>
+        <Outlet />
+      </div>
     </div>
   );
 };
 
-export default App;
+export default Home;

@@ -55,7 +55,7 @@ const NavTrigger = (props: NavTriggerProps): ReactNode => {
 const NavMenu = (props: Links) => {
   const { links, isCollapsed } = props;
   return (
-    <NavigationMenu orientation="vertical" className="w-full pl-3 pr-3">
+    <NavigationMenu orientation="vertical" className="w-full px-5">
       <NavigationMenuList className="space-y-10">
         {links.map((link: NavLink, index: number) => {
           return (
