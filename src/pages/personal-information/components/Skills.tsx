@@ -2,7 +2,6 @@ import { Badge } from "@/components/ui/badge";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -24,11 +23,8 @@ const Skills = () => {
   ];
   return (
     <Card>
-      <CardHeader>
-        <CardTitle className="text-3xl font-bold">SKILLS</CardTitle>
-        <CardDescription className="pb-4">
-          displays the list of skills accumulated
-        </CardDescription>
+      <CardHeader className="space-y-5">
+        <CardTitle className="text-3xl font-bold text-center">SKILLS</CardTitle>
         <CardContent className="grid gap-4 lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
           {skillsList.map((data, index) => {
             return (
