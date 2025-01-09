@@ -1,10 +1,10 @@
 import "./App.css";
-import SideBarComponent from "./components/SideBarComponent";
+import SidebarLeg from "./components/side-bar/SidebarLeg";
 
 function App() {
   return (
     <>
-      <SideBarComponent />
+      <SidebarLeg isCollapsed={false} setIsCollapse={() => {}} />
     </>
   );
 }
