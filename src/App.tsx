@@ -9,6 +9,7 @@ const App = () => {
         isCollapsed={isCol}
         setIsCollapse={() => setIsCol((prev) => !prev)}
       />
+      HELLO
       <Outlet />
     </div>
   );
