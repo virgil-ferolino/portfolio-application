@@ -9,8 +9,9 @@ const App = () => {
         isCollapsed={isCol}
         setIsCollapse={() => setIsCol((prev) => !prev)}
       />
-      HELLO
-      <Outlet />
+      <div className="max-h-[100svh] overflow-auto">
+        <Outlet />
+      </div>
     </div>
   );
 };

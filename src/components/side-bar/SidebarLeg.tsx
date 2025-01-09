@@ -22,7 +22,7 @@ const SidebarLeg = (props: SideTypeProps) => {
   return (
     <div
       className={cn(
-        `relative bg-black border-r-4 border-slate-200 h-svh trasition-[width] ease-in-out duration-100 left-0 z-40 top-0`,
+        `relative bg-black h-svh trasition-[width] ease-in-out duration-100 left-0 z-40 top-0`,
         className,
         collapse
       )}
@@ -31,7 +31,7 @@ const SidebarLeg = (props: SideTypeProps) => {
       <IconChevronsLeft
         stroke={2}
         className={cn(
-          "aspect-square scale-150 bg-black text-slate-600 border-2 border-slate-600 rounded-full absolute right-0 translate-x-2/3 top-1/2",
+          "aspect-square scale-150 bg-black text-slate-600 border-2 border-slate-600 rounded-full absolute right-0 translate-x-1/2 top-1/2",
           isClose,
           isHovered
         )}
