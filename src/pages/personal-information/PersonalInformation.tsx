@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 
 const PersonalInformation = (): ReactElement => {
   return (
-    <div className="space-y-10 bg-slate-700 p-10">
+    <div className="space-y-10 bg-slate-700 p-10 mb-20">
       <Label className="text-7xl font-bold text-white">
         PERSONAL INFORMATION
       </Label>

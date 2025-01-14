@@ -7,7 +7,7 @@ const Overview = () => {
       <Label className="font-bold text-white text-7xl">OVERVIEW</Label>
       <div
         className={cn(
-          "min-h-[45rem] w-full rounded-3xl p-20",
+          "min-h-[40rem] w-full rounded-3xl p-20",
           "bg-[url('@/assets/summaryBg.jpg')]",
           "flex flex-col justify-center space-y-10"
         )}
